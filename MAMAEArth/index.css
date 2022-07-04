@@ -1,0 +1,397 @@
+
+/* *********************** */
+/* Chandani's Css */
+#produchSection{
+    width: 85%;
+    height: auto;
+   
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#description{
+    width: 29%;
+    height: auto;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.productType{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-top: 30px;
+    
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.productType>h1{
+    font-size: 40px;
+    text-align: center;
+}
+.productType>p{
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+.productType>button{
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    background-color: #00AFEF;
+    color: white;
+    font-weight: bold;
+    border:0px
+}
+#produchSection>#products{
+    width: 70%;
+    height: auto;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#bestSellers{
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 20px;
+}
+#bestDealers{
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 20px;
+}
+#colorCare{
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 20px;  
+}
+#onionRange{
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; 
+}
+#vitaminC{
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#ubtan{
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+/* js styling************ */
+.one{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+   border:"0.5px dotted rgb(223, 213, 213)";
+   height: 480px;
+   margin-top: 20px;
+   
+   }   
+   .btn{
+       width: 20%;
+    background-color:#6DA523 ;
+    color:white;
+    padding: 3px 3px 3px 3px;
+    border-radius: 5px;
+    font-size: 14px;
+    border:0px;
+    margin-left: 40%;
+   }
+   .pr{
+    color:rgb(54, 49, 49);
+    font-size: 17px;
+    font-weight: bold;
+   }
+   .name{
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color:rgb(104, 99, 99)
+   }
+   .add{
+
+      width: 90%;
+      margin-left: 5%;
+      height: 50px;
+   background-color:white ;
+      color: #00AFEF;
+      border: 1px solid rgb(221, 209, 209);
+      border-radius: 0px;
+      margin-top: 15px;
+     cursor: pointer;
+     font-size: 20px;
+     font-weight: bold;
+   }
+   .add:hover{
+    background-color:#00AFEF; 
+    color:white;
+   }
+
+   #box2>div{
+   
+    text-align: center;
+    padding-bottom: 30px;
+    border:0.5px dotted rgb(189, 179, 179);
+    border-radius: 10px;
+
+}
+#a{
+    padding-top: 90px;
+    
+}
+h1{
+ font-size: 40px;
+ color:#333333;
+}
+p{
+    font-size: 18px;
+    color:rgb(32, 30, 30)
+}
+.button{
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    background-color: #00AFEF;
+    color: white;
+    font-weight: bold;
+    border:0px
+}
+img+p+button{
+    padding:5px 5px 5px 5px;
+    background-color:#6DA523
+}
+img+p{
+    font-size: 20px;
+}
+.add>button{
+    background-color:white ;
+    color: #00AFEF;
+    border: 1px solid rgb(221, 209, 209);
+    border-radius: 0px;
+    margin-top: 25px;
+    padding:18px 120px 18px 120px;
+   cursor: pointer;
+   
+}
+.add>button:hover{
+    color:white;
+    background-color:#00AFEF;
+}
+#box2>#a{
+    border:0px
+}
+#bottom{
+    height:500px ;
+    width:80%;
+    padding-top: 70px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:40px
+}
+#bottom>div>iframe{
+    height:550px;
+    width:100%;
+    border-radius: 10px;
+    
+}
+#para{
+    text-align:center ;
+    margin-top: 50px;
+}
+#para>p{
+    font-size: 18px;
+}
+#para>h2{
+   font-size: 20px; 
+   color: #00AFEF;
+}
+#our{
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    background-color: white;
+    color:#00AFEF;
+    border:0.5px solid #00AFEF;
+    margin-left: 10px;
+
+}
+#pic{
+    height:750px;
+    width:100%;
+    margin :auto;
+    text-align: center;
+    padding-top: 180px;
+    
+    
+}
+#safe{
+    text-align: center;
+    font-size:40px ;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+#my{
+    height:auto;
+    width:80%;
+    margin:auto;
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    margin-top: 30px;
+}
+#my>div{
+    display:flex;
+
+}
+#my>div>img{
+    height:120px;
+    margin-top: 10px;
+}
+#my>div>div>p{
+    height:10px;
+    width:90%
+}
+#my>div>div>h1{
+    font-size: 30px;
+}
+#my>div>div{
+    margin-left: 20px;
+}
+#pic>img{
+    width: 100%;
+}
+
+  /* footer start */
+  .footer-box-low{
+    position: relative;
+    width:80%;
+  margin: auto;
+    
+}
+.col-rig{
+    position:absolute;
+    margin-left:70%;
+    width: 200px;
+    height: 250px;
+  
+   
+}
+
+.footer__div {
+  /* width: 400px; */
+  position: relative;
+}
+.payment {
+  display: flex;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  width:80%;
+  margin: auto;
+
+}
+.lpay {
+  flex-basis: 45%;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.lpay > h4 {
+  font-size: 18px;
+  margin-left: 3%;
+}
+.lpay > p > img {
+  width: 3%;
+  margin-left: 3%;
+}
+.lpay > div > img {
+  width:100px;
+  margin-left: 1%;
+  height: 40px;
+
+}
+.lpay > div > img:nth-child(1) {
+  margin-left: 3%;
+}
+.rpay {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.rpay > div {
+  margin: 2%;
+  font-size: 12px;
+}
+.rpay > div > img {
+  width:70px;
+  margin:20px,20px,20px,20px;
+  height:40px;
+}
+.rpay > div:nth-child(2) > img {
+  width: 68%;
+  margin: 22% 0 0 7%;
+}
+.rpay > div:nth-child(2) {
+  margin-left: -2%;
+}
+.rpay > div:nth-child(1) {
+  margin-left: 8%;
+}
+.rpay > div:nth-child(3) > img {
+  width: 62%;
+  margin: 24% 0 2% 22%;
+}
+
+.shiping {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2%;
+  text-align: center;
+  border: 1px solid #ddd;
+  width:80%;
+  margin: auto;
+  margin-top: 100px;
+  padding: 20px;
+  /* border: 1px solid red; */
+  
+}
+.shipright > button {
+  background-color: white;
+  color: #00afef;
+  border: 1px solid #00afef;
+  margin: 2%;
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+}
+.shipleft>img{
+    height:40px;
+    width:40px;
+}
+.shipmid>img{
+    height:40px;
+    width:40px;
+}
+  /* footer end */
+
+
+
+  /* footer start */
+ 
+  /* footer end ....

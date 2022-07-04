@@ -1,0 +1,339 @@
+
+   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+
+    <script src="https://kit.fontawesome.com/a9dbdcc6e4.js" crossorigin="anonymous"></script>
+    <!-- <script
+    src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Poppins:wght@500;700;900&family=Roboto:wght@500&display=swap" rel="stylesheet">
+<link href="header.css" rel="stylesheet">
+<style>
+
+    /***** header css end*****/
+#center{
+   
+   width: 90%;
+   display: flex;
+   padding-left: 100px;
+   margin: auto;
+
+   margin-top: 15px;
+   /* */
+}
+#centerLeft{
+   width: 55%;
+   margin:auto;
+   height: auto;
+  
+   padding-bottom: 50px;
+   padding-left: 20px;
+   border: 1px solid lightgray; 
+}
+#centerLeft>#instruction{
+   padding-top: 20px;
+   display: flex;
+   font-size: 18px;
+   align-items: center;
+   font-family: 'Roboto', sans-serif;
+}
+#centerLeft>#instruction>#button{
+   width: 130px;
+   height: 40px;
+   margin-left: 20px;
+   border-radius: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border:2px solid #00afef ;
+   background-color: white;
+   color: #00afef;
+   font-size: 15px;
+   cursor: pointer;
+}
+#centerLeft>#instruction>#button:hover{
+   color: white;
+   background-color: #00afef;
+}
+
+#delAddress{
+   width: 99%;
+   margin-top: 30px;
+   font-size: 20px;
+   display: flex;
+   flex-direction: column;
+   font-family: 'Roboto', sans-serif;
+}
+#delAddress>div{
+   padding-top:20px ;
+}
+#delAddress>div>.name{
+   width: 48%;
+   height: 40px;
+   font-size: 16px;
+   border: none;
+   border: 1px solid lightgray;
+   border-radius: 5px;
+}
+#delAddress>div>.contact{
+   width: 48%;
+   height: 40px;
+   font-size: 16px;
+   border: none;
+   border: 1px solid lightgray;
+   border-radius: 5px;
+}
+#delAddress>div>.pcs{
+   width: 31.5%;
+   height: 40px;
+   font-size: 16px;
+   border: none;
+   border: 1px solid lightgray;
+   border-radius: 5px;
+}
+#delAddress>div>#address{
+   width: 97.4%;
+   height: 40px;
+   font-size: 16px;
+   border: none;
+   border: 1px solid lightgray;
+   border-radius: 5px;
+}
+#typeAddress{
+   width: 40%;
+   padding-top: 30px;
+   font-size: 18px;
+   font-family: 'Roboto', sans-serif;
+   color: gray;
+}
+#typeAddress>div{
+    padding-top: 30px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+#typeAddress>div>div{
+    height: 40px;
+    width: 30%;
+   border-radius: 20px;
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: lightgray;
+   color: gray;
+   cursor: pointer;
+
+
+}
+#paymentMethod{
+    padding-top: 40px;
+    font-size: 20px;
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    
+    font-family: 'Roboto', sans-serif;
+}
+#pMethod{
+    width: 30%;
+    padding-top: 5px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: auto;
+    border-radius: 5px;
+}
+#pMethod>div{
+    border: 1px solid  lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+
+}
+#pMethod>div>input{
+    width: 30px;
+    height: 30px;
+}
+#pMethod>#upi{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+#pMethod>#cod{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+#accNo{
+  width:50% ;
+}
+
+form{
+            font-size: 25px;
+            /* width: 99%; */
+        }
+        .input{
+            width: 250px;
+            height: 35px;
+            font-size: 18px;
+            margin-bottom: 20px;
+
+        }
+        #submit{
+            background-color: green;
+            color: white;
+            width: 150px;
+            margin-top: 40px;
+            height: 40px;
+            margin-left: 20px;
+            border-radius: 10px;
+        }
+        
+
+
+
+        
+
+
+</style>
+</head>
+<body>
+    <div id="red">
+        <a href="#">Asia's 1st brand with MADE SAFE Certified Products</a>
+        <a href="#">Free Shipping Above 399 | COD Available | Extra 5% OFF on Prepaid Orders | Shpo Now</a>
+        <a href="#"> <i class="fa-regular fa-user"></i></a>
+    </div>
+    <div id="midheader"><!-- middle header start  -->
+          <div id="imSearch">
+              <img src="https://mamaearthp.imgix.net/wysiwyg/mamaearth-logo.png?auto=format&fit=scale">
+              <div id="searchSection">
+                  <!-- <input type="text" id="searchBox" placeholder=" Search for products...">
+                  <button id="search"><i class="fa-solid fa-magnifying-glass"></i>&nbsp;&nbsp;Search</button> -->
+              </div>
+          </div> 
+     <!-- profile start  -->
+    <div id="profileSection">
+       <!-- <a href="addTCart.html"><div> <i class="fa-solid fa-cart-shopping"></i>&nbsp;
+          Cart
+        </div>
+      </a> 
+       <a href="login.html"> <div>
+          <i class="fa-regular fa-user"></i>&nbsp;
+          Login
+        </div>
+      </a> -->
+      
+    </div><!-- profile end    -->
+     
+    </div> <!-- middle header end -->
+  
+  
+    <div id="navbarStart"><!-- navbar start  -->
+      <div>
+        <div id="home" class="active">HOME</div>
+        <div id="baby">BABY</div>
+        <div id="beauty">BEAUTY</div>
+        <div id="hair">HAIR</div>
+        <div id="face">FACE</div>
+        <div id="body">BODY</div>
+        <div id="giftPacks">GIFT PACKS</div>
+        <div id="allProducts">ALL PRODUCTS</div>
+        <div id="blog">BLOG</div>
+        <div id="plantGoodness">PLANT GOODNESS</div>
+        <div id="storeLocator">STORE LOCATOR</div>
+      </div>
+    </div> <!-- navbar end -->
+<div id="center">
+    <div id="centerLeft">
+        <div id="instruction">Login to see your existing offers
+            <div id="button">Login/Signup</div>
+        </div>
+        <form action="">
+            <!-- delevery address------------------ -->
+            <div id="delAddress">
+                Delivery Address
+                <div><input class="name" type="text" id="fName" placeholder="First Name*" required>
+                    <input  class="name" type="text" id="lName" placeholder="Last Name*" required></div>
+                <div>
+                    <input class="contact" type="email" id="email" placeholder="Email ID*" required>
+                    <input class="contact" type="tel" id="mobNo" placeholder="Mobile No.*" required>
+                </div>
+                <div>
+                    <input class="pcs" type="number" id="pinCode" placeholder="PIN Code*" required>
+                    <input class="pcs" type="text" id="city" placeholder="City*" required>
+                    <input class="pcs" type="text" id="state" placeholder="State*" required>
+                </div>
+                <div><input type="text" id="address" placeholder="Address(House No, Building, Street, Area)*" required></div>
+            </div> <!-- end of delevery address------------------ -->
+            
+            <div id="typeAddress"> <!-- start of address type------------------ -->
+              <p>Select the type of the Address</p> 
+            <div>
+                <div id="homeAddress">Home</div>
+               <div id="workAddress" >Work</div>
+               <div id="otherAddress">Other</div>
+            </div>
+               
+            </div> <!-- end of address type------------------ -->
+<p> Choose payment method</p>
+            <div id="paymentMethod">
+               
+              <div id="pMethod">
+                  <div id="upi"> <input type="radio"  name="payOption" value="UPI"/> &nbsp;UPI</div>
+                  <div><input type="radio" name="payOption" value="Credit/Debit Car"/> &nbsp;Credit/Debit Card</div>
+                  <div><input type="radio" name="payOption" value="Net Banking"/>&nbsp; Net Banking</div>
+                  <div><input type="radio" name="payOption" value="Wallets"/>&nbsp; Wallets</div>
+                  <div id="cod"><input type="radio"  name="payOption" value="Cash on Delivery"/> &nbsp;Cash on Delivery</div>
+              </div>
+              <div id="accNo">
+
+                <form action="">
+                  <label for="name">Card Number</label><br/>
+                  <input class="input" type="number" placeholder="Enter card number" id="number" required/><br/>
+      
+                  <label for="email">CVV</label><br/>
+                  <input class="input" type="number" placeholder="Enter CVV" id="cvv" required/><br/>
+      
+                  <label for="pass">Card Holder Name</label><br/>
+                  <input class="input" type="date" placeholder="Expiry date" id="exp" required/><br/>
+      
+                  <label for="pass">Card Holder Name</label><br/>
+                  <input class="input" type="text" placeholder="Card holder Name" id="name" required/><br/>
+                  
+                  <input class="input" type="submit" id="submit" value="Submit"/>
+              </form>
+
+
+              </div>
+            </div>
+        </form>
+    </div>
+    <div id="centerRight">
+
+    </div>
+</div>
+
+
+</body>
+</html>
+<script src="header.js">
+// headerPage js**************************************
+
+// end of header page js*****************************
+
+</script>
+<script src="payment.js"></script>
